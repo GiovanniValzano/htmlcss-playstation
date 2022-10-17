@@ -1,0 +1,119 @@
+body {
+	margin-top: 111px;
+}
+
+.bar-sony {
+	height: 35px;
+}
+
+.dropdown {
+	position: static;
+}
+
+.dropdown-menu[data-bs-popper] {
+	width: 100%;
+	margin-top: 0;
+}
+
+.dropdown-menu {
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu.show {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.dropdown-item {
+	text-align: center;
+}
+
+.dropdown-item img {
+	display: block;
+	width: 100%;
+}
+
+.nav-item .btn-dark {
+    border-radius: 20px;
+}
+
+.searchicon {
+    font-size: 27px;
+    color: rgb(81, 81, 81);
+    vertical-align: -10px;
+}
+
+.bg-jumbo {
+	padding: 200px 0 50px;
+	background-image: url('../img/jumbo-bg.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.card-game {
+	padding: 3px;
+	border: 3px solid transparent;
+	border-radius: 1rem;
+	overflow: hidden;
+	transition: transform .6s;
+}
+
+.card-game.active {
+	border: 3px solid blue;
+}
+
+.card-game:hover {
+	border: 3px solid blue;
+	transform: translateY(-20px);
+	cursor: pointer;
+}
+
+.card-game img {
+	border-radius: calc(1rem - 6px);
+}
+
+.accessories {
+    border-bottom: 3px solid white;
+    opacity: 50%;
+    transition: .2s;
+}
+
+.accessories:hover {
+    border-bottom: 3px solid rgb(27, 92, 213);
+    opacity: 100%;
+}
+
+.it-takes-two-cont {
+    background-image: url(/Users/mariasofia/Desktop/Esercizi/htmlcss-playstation/img/it-takes-two-hero-banner-desktop.jpg);
+    height: 900px;
+    background-position: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.color-gray {
+    background-color: rgba(190, 188, 187, 1);
+}
+
+.color-blue {
+    background-color: rgba(22, 28, 59, 1);
+}
+
+.container-small {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.color-lightblue {
+    background-color: rgba(0, 67, 156, 1);
+}
+
+.sieimg {
+    width: 200px;
+}
